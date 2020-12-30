@@ -20,8 +20,8 @@ export class AccountsService {
 
     // @Output() statusUpdate: EventEmitter<string> = new EventEmitter<string>();
     
-    statusUpdate = new EventEmitter<string>(); // you can use this property to emit or subscribe to from components that have this service injecte
-                                               // you can emit if theres a change in one component, and subscribe to that change in another compoent
+    statusUpdate = new EventEmitter<string>(); // you can use this property to emit or subscribe to from components that have this service injected
+                                               // you can emit if theres a change in one component, and subscribe to that change in another component
     constructor(private loggingService: LoggingService){
 
     }
